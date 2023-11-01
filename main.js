@@ -21,12 +21,15 @@ if (numbers.some((n)=>isNaN(n))) {
 
 let result;
 switch(command){
+    // 평균 구현
     case "avg":
         result = lib.avg(numbers);
         break;
+        // 소수 구현
     case "prime":
         result = lib.prime(numbers[0]);
         break;
+        // 팩토리얼 구현
     case "fact":
         result = lib.fact(numbers[0]);
         break;

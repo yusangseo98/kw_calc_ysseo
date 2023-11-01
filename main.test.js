@@ -26,4 +26,4 @@ test("Wrong command", ()=>{
         const output = outputs.join("").trim();
         expect(output).toBe("Wrong command!");
     });
-})
+});
