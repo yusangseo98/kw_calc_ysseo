@@ -1,0 +1,17 @@
+{
+  "name": "kw_calc_ysseo",
+  "version": "0.0.1",
+  "description": "kw-calc-box",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "calcbox": "./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
