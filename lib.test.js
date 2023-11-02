@@ -24,3 +24,11 @@ test("fact(10) should be 3628800", ()=>{
 test("fact(5) should be 120", ()=>{
     expect(lib.fact(5)).toBe(120);
 });
+
+test("fact(4) should be 24", ()=>{
+    expect(lib.fact(4)).toBe(24);
+});
+
+test("prime(53) should be true", ()=>{
+    expect(lib.prime(53)).toBe(true);
+});
